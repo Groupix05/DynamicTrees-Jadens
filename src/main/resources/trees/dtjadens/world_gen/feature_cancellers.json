@@ -1,0 +1,10 @@
+[
+  {
+    "__comment": "Cancel nether trees",
+    "select": { "name": "minecraft:.*forest", "tag": "#minecraft:is_nether" },
+    "cancellers": {
+      "type": "fungus",
+      "namespace": "netherexp"
+    }
+  }
+]

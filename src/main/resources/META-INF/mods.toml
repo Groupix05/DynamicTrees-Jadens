@@ -1,0 +1,43 @@
+license="MIT"
+modLoader="javafml"
+loaderVersion="[47,)"
+issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Jadens/issues"
+
+[[mods]]
+modId="dtjadens"
+version="${file.jarVersion}"
+displayName="Dynamic Trees for Jaden's Nether Expansion"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-jadens"
+logoFile="dtj-logo.png"
+authors="Groupix05"
+description='''
+Adds Dynamic Trees compatibility for Jaden's Nether Expansion.
+'''
+
+[[dependencies.dtjadens]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtjadens]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtjadens]]
+    modId="dynamictrees"
+    mandatory=true
+    versionRange="[1.3.3,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtjadens]]
+    modId="netherexp"
+    mandatory=true
+    versionRange="[2.1.4,)"
+    ordering="AFTER"
+    side="BOTH"
