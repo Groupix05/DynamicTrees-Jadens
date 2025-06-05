@@ -8,7 +8,7 @@ modId="dtjadens"
 version="${file.jarVersion}"
 displayName="Dynamic Trees for Jaden's Nether Expansion"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-jadens"
-logoFile="dtj-logo.png"
+logoFile="logo.png"
 authors="Groupix05"
 description='''
 Adds Dynamic Trees compatibility for Jaden's Nether Expansion.
